@@ -1,0 +1,10 @@
+{
+  "latestErrorEvent": {
+    "code": "TYPE-001",
+    "message": "Failed to generate type declaration. Execute the below cmd to reproduce and fix the error. #TYPE-001\nargs: {\"cmd\":\"\\\"C:\\\\\\\\Program Files\\\\\\\\nodejs\\\\\\\\node.exe\\\" H:\\\\workProject\\\\monorepo_test\\\\apps\\\\mobile-remote\\\\mobile_project2\\\\node_modules\\\\.pnpm\\\\typescript@6.0.3\\\\node_modules\\\\typescript\\\\bin\\\\tsc --project H:\\\\workProject\\\\monorepo_test\\\\apps\\\\mobile-remote\\\\mobile_project2\\\\node_modules\\\\.federation\\\\tsconfig.4a9f5960c5a36daf7770535ae2130f67.json\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/type#type-001",
+    "args": {
+      "cmd": "\"C:\\\\Program Files\\\\nodejs\\\\node.exe\" H:\\workProject\\monorepo_test\\apps\\mobile-remote\\mobile_project2\\node_modules\\.pnpm\\typescript@6.0.3\\node_modules\\typescript\\bin\\tsc --project H:\\workProject\\monorepo_test\\apps\\mobile-remote\\mobile_project2\\node_modules\\.federation\\tsconfig.4a9f5960c5a36daf7770535ae2130f67.json"
+    },
+    "timestamp": 1792238448270
+  }
+}
