@@ -1,13 +1,20 @@
-import './App.css'
+import './App.scss'
 import { Input } from 'mobile_project1'
 import { Button } from '@monorepo_test/todo'
+import { useState, useEffect } from 'react'
 
 function App() {
+  const [inputVal, setInputVal] = useState('')
+  useEffect(() => {
+        console.log(inputVal)
+    }, [inputVal])
   return (
-    <>
-      <Input />
-      <Button />
-    </>
+    <div className='mobile_container'>
+      <div className="centerBox">
+        <Input value={inputVal} onValChange={(val) => setInputVal(val)} />
+        <Button />
+      </div>
+    </div>
   )
 }
 

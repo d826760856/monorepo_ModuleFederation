@@ -1,10 +1,10 @@
 {
   "latestErrorEvent": {
     "code": "TYPE-001",
-    "message": "Failed to generate type declaration. Execute the below cmd to reproduce and fix the error. #TYPE-001\nargs: {\"cmd\":\"\\\"C:\\\\\\\\Program Files\\\\\\\\nodejs\\\\\\\\node.exe\\\" H:\\\\workProject\\\\monorepo_test\\\\apps\\\\mobile-remote\\\\mobile_project1\\\\node_modules\\\\.pnpm\\\\typescript@6.0.3\\\\node_modules\\\\typescript\\\\bin\\\\tsc --project H:\\\\workProject\\\\monorepo_test\\\\apps\\\\mobile-remote\\\\mobile_project1\\\\node_modules\\\\.federation\\\\tsconfig.94720f6ef55216e6ddcf9138d556fbea.json\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/type#type-001",
+    "message": "Failed to generate type declaration. Execute the below cmd to reproduce and fix the error. #TYPE-001\nargs: {\"cmd\":\"\\\"C:\\\\\\\\Program Files\\\\\\\\nodejs\\\\\\\\node.exe\\\" H:\\\\workProject\\\\monorepo_test\\\\apps\\\\mobile-remote\\\\mobile_project1\\\\node_modules\\\\.pnpm\\\\typescript@6.0.3\\\\node_modules\\\\typescript\\\\bin\\\\tsc --project H:\\\\workProject\\\\monorepo_test\\\\apps\\\\mobile-remote\\\\mobile_project1\\\\node_modules\\\\.federation\\\\tsconfig.72e4664986901c4a0d656b6dc6d3f54a.json\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/type#type-001",
     "args": {
-      "cmd": "\"C:\\\\Program Files\\\\nodejs\\\\node.exe\" H:\\workProject\\monorepo_test\\apps\\mobile-remote\\mobile_project1\\node_modules\\.pnpm\\typescript@6.0.3\\node_modules\\typescript\\bin\\tsc --project H:\\workProject\\monorepo_test\\apps\\mobile-remote\\mobile_project1\\node_modules\\.federation\\tsconfig.94720f6ef55216e6ddcf9138d556fbea.json"
+      "cmd": "\"C:\\\\Program Files\\\\nodejs\\\\node.exe\" H:\\workProject\\monorepo_test\\apps\\mobile-remote\\mobile_project1\\node_modules\\.pnpm\\typescript@6.0.3\\node_modules\\typescript\\bin\\tsc --project H:\\workProject\\monorepo_test\\apps\\mobile-remote\\mobile_project1\\node_modules\\.federation\\tsconfig.72e4664986901c4a0d656b6dc6d3f54a.json"
     },
-    "timestamp": 1792223001470
+    "timestamp": 1792228649694
   }
 }

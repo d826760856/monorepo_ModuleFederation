@@ -1,0 +1,9 @@
+.mobile_project1_container {
+    display: flex;
+    justify-content: center;
+    .InputContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
