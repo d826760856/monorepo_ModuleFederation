@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently --kill-others -n mobile,mobile_project1 \"vite\" \"pnpm --dir ../mobile-remote/mobile_project1 dev\"",
+    "dev": "concurrently --kill-others -n mobile,mobile_project1 \"vite --force\" \"pnpm --dir ../mobile-remote/mobile_project1 dev\"",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview"

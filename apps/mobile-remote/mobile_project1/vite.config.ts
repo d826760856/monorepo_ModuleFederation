@@ -7,8 +7,8 @@ import mfConfig from './module-federation.config.ts';
 export default defineConfig({
   plugins: [react(), federation(mfConfig)],
   server: {
-    port: 5174,
+    port: 5278,
     strictPort: true,
-    origin: 'http://localhost:5174',
+    origin: 'http://localhost:5278',
   },
 })

@@ -4,7 +4,7 @@ export default createModuleFederationConfig({
   name: 'mobile_Host',
   manifest: true,
   remotes: {
-    mobile_project1: 'mobile_project1@http://localhost:5174/mf-manifest.json',
+    mobile_project1: 'mobile_project1@http://localhost:5278/mf-manifest.json',
   },
   dts: {
     consumeTypes: {
