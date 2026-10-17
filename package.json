@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:mobile": "pnpm --filter mobile dev"
+    "dev:mobile": "pnpm --filter mobile dev",
+    "dev:mobile_bridge": "pnpm --filter mobile_bridge dev"
   },
   "keywords": [],
   "author": "",
