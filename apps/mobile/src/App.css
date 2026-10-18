@@ -1,3 +1,4 @@
+@import "tailwindcss";
 .mobile_container {
     height: 100%;
     display: flex;
