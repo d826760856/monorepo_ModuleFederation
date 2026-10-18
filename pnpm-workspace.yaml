@@ -4,4 +4,5 @@ packages:
   # packages/ 直接子目录中的所有包
   - 'packages/*'
 allowBuilds:
-  '@parcel/watcher': set this to true or false
+  '@parcel/watcher': true
+  esbuild: false

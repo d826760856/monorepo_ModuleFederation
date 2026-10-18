@@ -1,0 +1,9 @@
+html,body,#root {
+    height: 100%;
+}
+.container {
+    text-align: center;
+    height: 100%;
+    line-height: 1000px;
+    background-color: #ccc;
+}
