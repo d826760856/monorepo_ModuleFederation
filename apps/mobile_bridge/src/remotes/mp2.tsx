@@ -3,7 +3,7 @@ import { forwardRef, type ComponentProps } from 'react';
 import { createRemoteAppComponent } from '@module-federation/bridge-react';
 import { loadRemote } from '@module-federation/runtime';
 import { LoadingComponent, ErrorFallback } from '../components/RemoteComponents';
-import type { AppProps } from '@mf-types/mobile_project2/export-app';
+import type { AppProps } from '@mf-types/mobile_project2/export-app'
 
 const RemoteApp = createRemoteAppComponent({
   loader: () => loadRemote('mobile_project2/export-app'),

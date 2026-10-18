@@ -1,19 +1,15 @@
-
-export type AppProps = {
-  title: string
-}
 import { RouterProvider } from "react-router-dom"
 import router from "./router"
-import { createContext } from "react";
+import type { AppProps } from './router/route-props'
 
-export const HostPropsContext = createContext<AppProps | null>(null);
+import { RoutePropsContext } from "./router/route-props-context"
 
-function App(props: AppProps) {
+function App({ props = {} }: AppProps) {
   return (
-    <HostPropsContext.Provider value={props}>
+    <RoutePropsContext.Provider value={props}>
       <RouterProvider router={router}>
       </RouterProvider>
-    </HostPropsContext.Provider>
+    </RoutePropsContext.Provider>
     )
 }
 

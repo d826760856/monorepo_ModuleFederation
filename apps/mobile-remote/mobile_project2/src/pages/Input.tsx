@@ -1,11 +1,11 @@
 import { useContext } from "react";
-import { HostPropsContext } from "../App";
-import type { AppProps } from '../App'
+import { RoutePropsContext } from "../router/route-props-context";
+import type { InputProps } from '../router/route-props'
 function Input() {
-    const { title } = useContext(HostPropsContext) as AppProps 
+    const props = useContext(RoutePropsContext).input as InputProps | undefined
     return(
         <div>
-            {title}
+            {props?.title}
             路由Input页面
         </div>
     )
