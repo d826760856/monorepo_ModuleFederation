@@ -26,6 +26,7 @@ const App = () => {
           // 使用 Remote1App 组件, 将会被懒加载
           Component={() => (
             <Mobile_project2App
+              basename="/remote1"
               style={{ color: 'red' }}
               // name 和 age 为远程组件 props, 将自动透传到远程组件
               title={'222'}
