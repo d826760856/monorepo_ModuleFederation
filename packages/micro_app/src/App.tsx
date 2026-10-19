@@ -17,7 +17,7 @@ function WujieApp(props: WujieReactProps) {
 
 setupApp({
     name: "react17",
-    url: "http://localhost:5173/",
+    url: "http://localhost:5174/",
     //   attrs,
     exec: true,
     // fetch: credentialsFetch,

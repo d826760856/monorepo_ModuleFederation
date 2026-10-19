@@ -1,6 +1,8 @@
 packages:
   # 指定根目录直接子目录中的包
   - 'apps/*'
+  # 指定remote的包
+  - 'apps/mobile-remote/*'
   # packages/ 直接子目录中的所有包
   - 'packages/*'
 allowBuilds:
