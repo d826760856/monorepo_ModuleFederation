@@ -11,7 +11,6 @@
   "dependencies": {
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "sass": "^1.105.2",
     "wujie-react": "^2.1.0"
   },
   "devDependencies": {

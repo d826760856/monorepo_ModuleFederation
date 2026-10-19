@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@source "../../../packages/micro_app/src";
+
 .mobile_container {
     height: 100%;
     display: flex;

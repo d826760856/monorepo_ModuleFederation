@@ -17,7 +17,7 @@ function WujieApp(props: WujieReactProps) {
 
 setupApp({
     name: "react17",
-    url: "http://localhost:5174/",
+    url: "http://localhost:5173/",
     //   attrs,
     exec: true,
     // fetch: credentialsFetch,
@@ -27,18 +27,20 @@ setupApp({
     ...lifecycles,
 });
 
-function McApp() {
+function McApp({ className }: { className: string }) {
     return(
-        <>
-            <div className="mcApp">这是mcApp</div>
-            <WujieApp
-                width="100%"
-                height="100%"
-                name="react17"
-                // sync={true}
-                // props={props}
-            />
-        </>
+        <section className={className}>
+            <div className="text-center text-2xl">这是mcApp子应用</div>
+            <div className="flex-1">
+                <WujieApp
+                    width="100%"
+                    height="100%"
+                    name="react17"
+                    // sync={true}
+                    // props={props}
+                />
+            </div>
+        </section>
     )
 }
 export default McApp
