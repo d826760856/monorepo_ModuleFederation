@@ -230,6 +230,12 @@ importers:
       '@tailwindcss/vite':
         specifier: ^4.3.3
         version: 4.3.3(vite@8.3.4(@types/node@24.19.2)(jiti@2.7.0)(sass@1.105.2))
+      '@ut/protocol':
+        specifier: file:ut-protocol-1.0.0.tgz
+        version: file:apps/mobile-remote/mcApp_sub/ut-protocol-1.0.0.tgz
+      '@ut/sub-sdk':
+        specifier: file:ut-sub-sdk-1.0.0.tgz
+        version: file:apps/mobile-remote/mcApp_sub/ut-sub-sdk-1.0.0.tgz(@ut/protocol@file:apps/mobile-remote/mcApp_sub/ut-protocol-1.0.0.tgz)
       react:
         specifier: ^19.2.8
         version: 19.3.1
@@ -1035,6 +1041,16 @@ packages:
     engines: {node: '>=16.20.0'}
     cpu: [x64]
     os: [win32]
+
+  '@ut/protocol@file:apps/mobile-remote/mcApp_sub/ut-protocol-1.0.0.tgz':
+    resolution: {integrity: sha512-nqI787UnCHCxoXKuG46SzfjkBifP3Oa8EEIYMkrrIBtZ4sfARE6ky02WG/GR1q319pNDO3zqL44W/CCNnRAFuQ==, tarball: file:apps/mobile-remote/mcApp_sub/ut-protocol-1.0.0.tgz}
+    version: 1.0.0
+
+  '@ut/sub-sdk@file:apps/mobile-remote/mcApp_sub/ut-sub-sdk-1.0.0.tgz':
+    resolution: {integrity: sha512-PtsyWcuPsq4/cGWYasCriNmC8BBf1Mkw8ow7ZV/ZFZQ0IL7YmuHuRBqQbVpC6Z5afa5xUoqdh4nrx+HNdZJBPA==, tarball: file:apps/mobile-remote/mcApp_sub/ut-sub-sdk-1.0.0.tgz}
+    version: 1.0.0
+    peerDependencies:
+      '@ut/protocol': '>=1.0.0 <2.0.0'
 
   '@vitejs/plugin-react@6.1.2':
     resolution: {integrity: sha512-fhJNGUdscQa4HkI0xFxwonWyhnVReCPDbXI7FH7jmzpnVCrFQI7PRrhWecO263610vOrs9tr2Y4xcf8uAdFxbw==}
@@ -1939,6 +1955,12 @@ snapshots:
 
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
+
+  '@ut/protocol@file:apps/mobile-remote/mcApp_sub/ut-protocol-1.0.0.tgz': {}
+
+  '@ut/sub-sdk@file:apps/mobile-remote/mcApp_sub/ut-sub-sdk-1.0.0.tgz(@ut/protocol@file:apps/mobile-remote/mcApp_sub/ut-protocol-1.0.0.tgz)':
+    dependencies:
+      '@ut/protocol': file:apps/mobile-remote/mcApp_sub/ut-protocol-1.0.0.tgz
 
   '@vitejs/plugin-react@6.1.2(vite@8.3.4(@types/node@24.19.2)(jiti@2.7.0)(sass@1.105.2))':
     dependencies:
