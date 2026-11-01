@@ -10,7 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@module-federation/vite": "^1.23.7",
     "@tailwindcss/vite": "^4.3.3",
+    "@ut/protocol": "file:ut-protocol-1.0.0.tgz",
+    "@ut/sub-mf": "file:ut-sub-mf-1.0.0.tgz",
+    "@ut/sub-sdk": "file:ut-sub-sdk-1.0.0.tgz",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "tailwindcss": "^4.3.3"
